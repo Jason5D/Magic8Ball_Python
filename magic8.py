@@ -2,7 +2,7 @@ import random
 
 random_number = random.randint(1, 9)
 name = "Jason"
-question = "Will I start in November?"
+question = "Will I win the lottery?"
 answer = ""
 
 # print(random_number)
@@ -23,9 +23,10 @@ elif (random_number == 7):
   answer = "My sources say no"
 elif (random_number == 8):
   answer = "Outlook not so good"
-elif (randum_number == 9):
+elif (random_number == 9):
   answer = "Very doubful"
 else:
   answer = "Error"
 
-print(answer)
+print(name + " asks: " + question)
+print("Magic 8-balls answer: " + answer)
